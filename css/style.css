@@ -1,0 +1,327 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+.continer {
+  padding: 50px;
+}
+@font-face {
+  font-family: KumbhSans-Bold;
+  src: url(../Font/KumbhSans-Bold.ttf);
+}
+@font-face {
+  font-family: KumbhSans-Regular;
+  src: url(../Font/KumbhSans-Regular.ttf);
+}
+.top-pag {
+  width: 83%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.logo {
+  background-color: white;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: KumbhSans-Bold;
+}
+.main-nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.main-nav a:hover{
+    color: rgb(124, 124, 211);
+}
+.all-text {
+  width: 83%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.text_head {
+  font-family: KumbhSans-Bold;
+  color: #000;
+  font-size: 50px;
+  white-space: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+.p_head {
+  font-family: KumbhSans-Regular;
+  font-size: 18px;
+  color: #747b95;
+  line-height: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.botton {
+  background: #5175ff;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: KumbhSans-Bold;
+  border: none;
+  border-radius: 100px;
+  padding: 18px;
+  margin-top: 20px;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.my-photo {
+  width: 50%;
+}
+.my-photo img{
+    width: 100%;
+    margin-left: 45px;
+}
+.all-box {
+    width: 83%;
+    margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.boxleft {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  border-style: solid;
+  background-color: white;
+  box-shadow: 1px 1px 15px rgb(196, 196, 196);
+  border-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin-left: 30px;
+}
+.boxleft:hover{
+    background-color: #5175ff;
+}
+.boxleft:hover .basic,.boxleft:hover .free,.boxleft:hover .up,.boxleft:hover .details{
+    color: white;
+}
+.basic{
+    font-family:Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.free{
+    font-family:Helvetica, sans-serif;
+    font-size: 50px;
+}
+.up{
+    font-family:Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+.details{
+    font-family:Helvetica, sans-serif;
+    margin-bottom: 20px
+}
+.GB1 {
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #747b95;
+}
+.Great_security {
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #747b95;
+  margin: 20px;
+}
+.Try_for_Free1 {
+  font-family: KumbhSans-Bold;
+  font-size: 16px;
+  background-color: aliceblue;
+  color: #5175ff;
+  border: none;
+  border-radius: 100px;
+  padding: 18px;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Try_for_Free1:hover{
+    background-color: white;
+}
+.boxcenter:hover {
+  background-color: #5175ff;
+  color: #ffffff;
+}
+.p {
+  color: #000;
+  text-align: center;
+  font-family: KumbhSans-Bold;
+  font-size: 20px;
+  margin: 30px;
+  padding: 30px;
+}
+.price {
+  text-align: center;
+  font-family: KumbhSans-Bold;
+  font-size: 56px;
+  color: #000;
+  margin-left: 30px;
+}
+.user {
+  text-align: center;
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #000;
+  margin-left: 30px;
+}
+.All {
+  text-align: center;
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #000;
+  margin: 30px;
+}
+.strong {
+  text-align: center;
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #000;
+  margin: 30px;
+}
+.contrlo {
+  text-align: center;
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #000;
+  margin: 30px;
+}
+.Try_for_Free2 {
+  text-align: center;
+  font-family: KumbhSans-Bold;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #5175ff;
+  border: none;
+  border-radius: 100px;
+  padding: 18px;
+  width: 250px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.boxright {
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.Ultimate {
+  text-align: center;
+  font-family: KumbhSans-Bold;
+  font-size: 20px;
+  color: #333950;
+  margin: 30px;
+  padding: 20px;
+}
+.price2 {
+  text-align: center;
+  font-family: KumbhSans-Bold;
+  font-size: 56px;
+  color: #333950;
+}
+.per {
+  font-size: 16px;
+  font-family: KumbhSans-Regular;
+  color: #333950;
+}
+.Robust {
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  margin: 30px;
+  color: #747b95;
+}
+.GB2 {
+  margin-right: 30px;
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #747b95;
+  margin: 30px;
+}
+.VIP {
+  font-family: KumbhSans-Regular;
+  font-size: 16px;
+  color: #747b95;
+  margin: 30px;
+}
+.Try_for_Free2 {
+  font-family: KumbhSans-Bold;
+  font-size: 16px;
+  margin: 30px;
+  background-color: aliceblue;
+  color: #5175ff;
+  margin-left: 50px;
+  border-radius: 40px;
+}
+.box-botoom {
+    width: 70%;
+    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 118px;
+  padding: 30px;
+}
+.no.day {
+  font-family: KumbhSans-Bold;
+  font-size: 56px;
+  color: #ffffff;
+  /* line-height: 1px; */
+}
+.all-boxes{
+    display: flex;
+    justify-content: center;
+}
+.chart{
+    width: 70px;
+    height: 85px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5175ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.chart .num{
+    font-size: 30px;
+    color: white;
+}
+.chart .days{
+    color: white;
+}
+.days {
+  font-family: KumbhSans-Bold;
+  font-size: 16px;
+  color: #747b95;
+}
+.botton-right {
+  background: #5175ff;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: KumbhSans-Bold;
+  border: none;
+  border-radius: 100px;
+  padding: 18px;
+  width: 180px;
+  font-size: 16px;
+  cursor: pointer;
+}
